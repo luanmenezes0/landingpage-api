@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       secretAccessKey: env("AWS_ACCESS_SECRET"),
       region: env("AWS-REGION"),
       params: {
-        Bucket: env("AWS-BUCKET"),
+        Bucket: 'landingpage-up',
       },
     },
   },
